@@ -8,6 +8,7 @@ Reserve methods are flexible in JINH, both Gross Premium Reserve (GPV) and Net P
 Unlimited decrements can be easily applied with the templates offered in Morbidity.hs.
 
 
+
 A matrix exponential approach is supported for calculating more complicated state models. A simple proof is below.
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=e^{At}&space;=&space;\sum&space;{\frac&space;{At^k}&space;{k!}}&space;=&space;\sum&space;{\frac&space;{tA^k}&space;{k!}}&space;=&space;e^{tA}&space;=&space;B&space;e^{Dt}&space;B^{-1}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?e^{At}&space;=&space;\sum&space;{\frac&space;{At^k}&space;{k!}}&space;=&space;\sum&space;{\frac&space;{tA^k}&space;{k!}}&space;=&space;e^{tA}&space;=&space;B&space;e^{Dt}&space;B^{-1}" title="e^{At} = \sum {\frac {At^k} {k!}} = \sum {\frac {tA^k} {k!}} = e^{tA} = B e^{Dt} B^{-1}" /></a> where (B,D) represents the diagonalizable matrix.
@@ -27,6 +28,7 @@ clock-0.7.2
 exceptions-0.10.0
 hmatrix-0.19.0.0
 cassava-0.5.1.0
+Formatting-6.3.6
 ```
 
 Please find the term life product with surrender decrement, morbidity decrement, and mortality decrement under main.hs.
