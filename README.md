@@ -2,7 +2,7 @@
 
 JINH is a pure functional actuarial language based on Haskell.
 
-JINH is deecrement-driven and abstracts some useful high-order function to faciliate the modeling.
+JINH is decrement-driven and abstracts some useful high-order function to faciliate the modeling.
 JINH supports most of the traditional life products, like whole life, term life, endowment. 
 Reserve methods are flexible in JINH, both Gross Premium Reserve(GPV) and Net Premium Reserve(NPV) could be applied in JINH.
 Unlimited decrements could be easily applied with the templates offered in Morbidity.hs.
@@ -26,6 +26,7 @@ clock-0.7.2
 exceptions-0.10.0
 hmatrix-0.19.0.0
 cassava-0.5.1.0
+Formatting-6.3.6
 ```
 Please find the term life product with surrender decrement, morbidity decrement and mortality decrement under main.hs
 
